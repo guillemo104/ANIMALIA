@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(imagenes/animales.jpg), no-repeat center center fixed;
+    background-size: cover;
+
+}
+p{
+    margin-top: 15px;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(80, 173, 77)
+}
+h3{
+    margin-top: 15px;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    color: rgba(189, 201, 87, 0.842)
+}
+#main-container{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration:none;
+    text-shadow: 0 1px 0 rgba(31, 16, 160, 0.938);
+    box-shadow: 0 1px 1px rgba(169, 185, 175, 0.3);
+}
+.btn-yellow{
+  color:antiquewhite;
+background-color: rgb(231, 231, 36);
+}
+.btn-blue{
+    color:aliceblue;
+    background-color: rgb(21, 76, 102);
+}

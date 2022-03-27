@@ -1,0 +1,50 @@
+*{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+body{
+background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(imagenes/Tortuga\ boba.jpg), no-repeat center center fixed ;
+}
+
+h1{
+color: rgb(0, 0, 0);
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+text-align: left;    
+color: rgb(0, 0, 0);
+}
+
+p{
+color: aliceblue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cabecera{
+background-color: rgb(20, 166, 250);
+height: 50px;
+}
+#main-container{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration:none;
+    text-shadow: 0 1px 0 rgba(31, 16, 160, 0.938);
+    box-shadow: 0 1px 1px rgba(169, 185, 175, 0.3);
+}
+.btn-yellow{
+    color:antiquewhite;
+  background-color: rgb(231, 231, 36);
+  }
+.btn-blue{
+    color:aliceblue;
+    background-color: rgb(21, 76, 102);
+}

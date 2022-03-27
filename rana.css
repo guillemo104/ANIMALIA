@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(imagenes/Rana.jpg), no-repeat center center fixed ;
+    background-size: cover;
+
+}
+
+.menu{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    text-align: justify;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    color: green
+}
+
+p{
+    color:rgb(255, 254, 254);
+    margin-top: 20px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 70px;
+}
+
+h2{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-right: 70px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: green
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-right: 70px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: green
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-right: 70px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: green
+}
+
+#main-container{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration:none;
+    text-shadow: 0 1px 0 rgba(31, 16, 160, 0.938);
+    box-shadow: 0 1px 1px rgba(169, 185, 175, 0.3);
+}
+.btn-yellow{
+    color:antiquewhite;
+  background-color: rgb(231, 231, 36);
+  }
+.btn-blue{
+    color:aliceblue;
+    background-color: rgb(21, 76, 102);
+}
